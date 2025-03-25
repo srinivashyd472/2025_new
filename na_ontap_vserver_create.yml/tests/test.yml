@@ -1,0 +1,6 @@
+---
+- name: Test playbook
+  hosts: localhost
+  remote_user: admin
+  roles:
+    - netapp.ontap.na_ontap_vserver_create

@@ -1,0 +1,14 @@
+---
+# defaults file for na_ontap_vserver_create
+netapp_hostname: node1
+netapp_username: ansible
+netapp_password: vasu_007
+validate_certs: false
+vservers: vs1
+# vserver_dns: 
+lifs: nfs_lif1 , nfs_lif2
+# cifs:
+nfs: nfs
+# fcp:
+gateway: gateway1
+ontap_version: 140
